@@ -45,5 +45,13 @@ info
 }
 ```
 
+### 备注
+
+
+![BMcomment](https://github.com/DangDang-Chain/DebugList/blob/master/Screen%20Shot%202018-11-16%20at%208.37.05%20PM.png)
+
+以上为BM对问题的解答，使用checkpoint进行硬分叉。 但是以上仅仅是因为undo history的上限已经积累足够多造成的，如果无法确保有足够的服务器/witness在正常运行，以上问题仍然会在很短的时间内复现；如果服务器本地没有进行备份或者其他节点没有备份区块头信息，也无法使用checkpoint进行分叉。因为没有有效存储区块头意味着无人对网络进行有效的维护。
+
+
 
 
